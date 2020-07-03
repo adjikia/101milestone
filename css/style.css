@@ -1,0 +1,187 @@
+html, body{
+   padding: 0;
+   margin: 0;
+}
+
+body {
+  color:#3B3B3B;
+  font-size:16px;
+  background-color:#fffaf1;
+  width:1000px;
+  margin:auto;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+a {
+  text-decoration:none;
+  color:#340131;
+}
+
+/***** GRID *****/
+.fullwidth {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing:border-box;
+}
+
+.halfwidth {
+  width: 45%;
+padding: 15px;
+/* margin: 0 auto; */
+float: left;
+overflow: hidden;
+height: 300px;
+}
+
+.thirdwidth {
+    width: 33.3333%;
+    margin: 0 auto;
+    float: left;
+}
+
+
+/***** HEADER *****/
+
+/** nav **/
+#header ul {
+  padding-top:3%;
+  padding-left:60%;
+}
+
+/**/
+
+section#header {
+  background-color:#f65832 ;
+  color: white;
+  text-align: center;
+  margin-bottom: 5%;
+  padding-bottom:5%;
+/**  width:1000px;
+  margin:auto; **/
+}
+
+#header h1 {
+  font-size:42px;
+  font-family: 'Passion One', cursive;
+  font-weight:400;
+  letter-spacing:2px;
+  padding-top:5%;
+}
+
+#header h2 {
+  font-size:22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+  letter-spacing:1px;
+}
+
+#header li {
+  display:inline;
+  padding:2%;
+}
+
+#header li a{
+  color:white;
+  text-transform:uppercase;
+  font-size:10px;
+  font-weight: 900;
+}
+
+/***** PORTFOLIO *****/
+#portfolio h2 {
+  font-size:22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+  letter-spacing:1px;
+  text-align: center;
+  text-transform: uppercase;
+  color:#340131;
+}
+
+
+#portfolio h3 {
+  font-size:22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+  letter-spacing:1px;
+  color:#e1a641;
+  text-transform:uppercase;
+}
+
+p.skills {
+  font-style: italic;
+  color:#f65832;
+}
+
+#portfolio img {
+  width:450px;
+}
+
+div#portfolio {
+  border-bottom:1px solid #3b3b3b;
+}
+
+
+
+
+/** ABOUT **/
+section#about {
+  clear:both;
+  padding-top:5%;
+}
+
+section#about img{
+  float:right;
+}
+
+#about h2 {
+  font-size:22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+  letter-spacing:1px;
+  text-align: center;
+  text-transform: uppercase;
+  color:#e1a641;
+}
+/** connect **/
+
+section#connect {
+  clear: both;
+    padding-top:5%;
+}
+
+#connect h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+  letter-spacing:1px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left:50%;
+  color:#e1a641;
+}
+
+
+
+#connect img {
+height:35px;
+width:auto;
+}
+
+#connect li {
+  display: inline;
+  padding:3px;
+}
+
+div#About-image.halfwidth img{
+  max-width:300px;
+  height:auto;
+}
+
+/** FOOTER **/
+footer {
+  clear: both;
+text-align: center;
+padding-top: 25px;
+font-size: 10px;
+}
